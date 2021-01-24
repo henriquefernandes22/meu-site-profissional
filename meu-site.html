@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dev Henrique Fernandes</title>
+
+    <style>
+      body {
+        background: black;
+        margin: 0;
+        padding: 0;        
+      }
+
+      h1 {
+        color: white;
+        font-family: Arial;
+        text-align: center;
+        font-size: 60px;
+        margin: 0;
+      }
+
+      h2 {
+        color: white;
+        font-family: Arial;
+        text-align: center; 
+        font-size: 30px;
+        margin: 0; 
+      }
+
+      #apresentacao {
+        width: 100%;
+        height: auto;
+        background: url("background.gif");
+        background-size: cover;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        text-align: center;
+      }
+
+      .displayed {
+        height: 140px;
+        width: 140px;
+        border-radius: 50%;
+        margin: 1.5em;
+      }
+
+      #habilidades {
+        display: flex;
+        color: white;
+        text-align: center;
+      }
+
+      #contato {
+        height: 500px;
+        background: white;
+      }
+
+      #frontend {
+        background: rgb(21, 21, 21);
+        width: 50%;
+        height: 300px;
+      }
+
+      #backend {
+        background: rgb(11, 11, 11);
+        width: 50%;
+        height: 300px;
+      }
+
+      #contato {
+        height: 500px;
+        background: white;
+        text-align: center;
+        padding-top: 100px;
+        font-family: Arial;
+      }
+
+      h3 {
+        color: white;
+        font-family: Arial;
+        font-size: 30px;
+      }
+
+      h4 {
+        font-size: 25px;
+        color: #353839;
+      }
+
+      a {
+        background: green;
+        color: white;
+        text-decoration: none;
+        padding: 18px;
+        border-radius: 10px;
+      }
+
+      @media (max-width: 600px) {
+        #habilidade {
+          flex-direction: column;
+        }
+
+        #frontend {
+          width: 100%;
+        }
+
+        #backend {
+          width: 100%;
+        }
+      }
+
+    </style>
+  </head>
+
+  <body>
+   <div id="apresentacao">
+     <h1>Henrique Fernandes</h1>
+     <h2>Estudante de programação Web Full-Stack</h2>
+     <img src="henrique.jpg" alt="foto de perfil" class="displayed">
+   </div> 
+
+   <div id="habilidades">
+     <div id="frontend">
+      <h3>front-end</h3>
+       <img src="css.png">
+       <img src="js.png">
+       <img src="react.png">
+     </div>
+     <div id="backend">
+      <h3>back-end</h3>
+       <img src="node.png">
+       <img src="sql.png">
+       <img src="rest.png">
+     </div>
+   </div>
+
+   <div id="contato">
+      <h4>
+        Precisa de um site ou App?</br>
+        Me mande uma mensagem! :)
+      </h4>
+      <a href="https://wa.me/5534988054430">Mandar um WhatsApp</a>
+   </div>
+  </body>
+</html>
